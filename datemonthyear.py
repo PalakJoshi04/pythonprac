@@ -1,3 +1,4 @@
+#display todays momth date and year separately
 import datetime
 currentDate = datetime.date.today()
 
