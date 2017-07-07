@@ -1,4 +1,4 @@
-area = 0
+area = 0 # note here area is not a string hence first initialize to 0
 height = 7
 base = 3
 area = height * base /2
