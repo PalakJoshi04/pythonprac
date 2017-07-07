@@ -1,6 +1,5 @@
-area = 0 # note here area is not a string hence first initialize to 0
-height = 7
-base = 3
-area = height * base /2
-print('the area of triangle is %f' %area) # %f is used for float coz 7*3 =21 gives decimal value 
-                                (#%.2f can be used if only 2 decimal places are desired)
+
+no1 = input('Enter the first number')
+no2 = input('Enter the second number')
+area = float(no1) * float(no2) / int(2)
+print('the area of triangle is {0:.2f}'.format(area))
