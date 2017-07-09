@@ -1,3 +1,4 @@
+# draw graphic pentagon design
 import turtle
 sides = 5
 turtle.color('red')
